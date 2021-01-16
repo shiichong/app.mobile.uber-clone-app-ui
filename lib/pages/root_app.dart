@@ -22,6 +22,7 @@ class _RootAppState extends State<RootApp> {
   Widget getBody() {
     List<Widget> pages = [
       HomePage(),
+      
       Center(
         child: Text(
           "Search Page",
